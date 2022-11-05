@@ -1,0 +1,36 @@
+.container {
+    position: relative;
+    text-align: center;
+    color: black;
+  }
+  
+  .bottoml {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+  }
+  
+  .topl {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+  }
+  
+  .topr {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+  }
+  
+  .bottomr {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+  }
+  
+  .center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
